@@ -15,7 +15,6 @@ const listContainer = document.querySelector('.list-container');
 const formContainer = document.querySelector('.form-container');
 const contactContainer = document.querySelector('.contact-container');
 
-// let booksArray;
 window.addEventListener('load', () => {
   displayPage(getLocalStorage());
   dateTime.innerHTML = DateAndTime();
